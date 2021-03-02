@@ -26,6 +26,7 @@ public class Team {
         } else {
             members.add(player);
             System.out.println(player.getName() + " picked for team " + this.name);
+            return true;
         }
     }
 }
